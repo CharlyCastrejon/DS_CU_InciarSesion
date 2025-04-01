@@ -11,7 +11,7 @@ Este proyecto implementa el **Caso de Uso "Iniciar Sesión"** como parte de un s
 ## 🧱 Estructura del proyecto
 
 ```
-CU_IniciarSesion/
+DS_CU_IniciarSesion/
 ├── dto_negocios/               # Proyecto DTO
 ├── negocios_controlSesion/     # Subsistema de negocio (mock)
 ├── presentacion_iniciarSesion/ # Interfaz gráfica (Swing)
