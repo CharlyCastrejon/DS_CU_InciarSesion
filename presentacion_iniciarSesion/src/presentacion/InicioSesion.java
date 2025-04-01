@@ -75,7 +75,6 @@ public class InicioSesion extends JFrame {
     gbc.gridy = 4;
     panel.add(txtUsuario, gbc);
 
-    // Contraseña
     JLabel lblContrasena = new JLabel("Contraseña:");
     gbc.gridx = 0;
     gbc.gridy = 5;
@@ -86,14 +85,12 @@ public class InicioSesion extends JFrame {
     gbc.gridy = 6;
     panel.add(txtContrasena, gbc);
 
-    // Botón
     btnIngresar = new JButton("Iniciar Sesión");
     gbc.gridx = 0;
     gbc.gridy = 7;
     gbc.fill = GridBagConstraints.HORIZONTAL;
     panel.add(btnIngresar, gbc);
 
-    // Acción del botón
     btnIngresar.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
             String usuario = txtUsuario.getText();

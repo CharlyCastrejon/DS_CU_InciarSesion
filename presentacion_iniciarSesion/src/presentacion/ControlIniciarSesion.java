@@ -17,7 +17,7 @@ public class ControlIniciarSesion {
     private IValidadorAcceso validador;
 
     public ControlIniciarSesion() {
-        validador = new ValidadorAccesos(); // Instancia del mock
+        validador = new ValidadorAccesos();
     }
 
     public boolean iniciarSesion(String usuario, String contrasena) {
