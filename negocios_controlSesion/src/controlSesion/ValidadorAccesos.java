@@ -14,7 +14,7 @@ import dto.UsuarioDTO;
 public class ValidadorAccesos implements IValidadorAcceso {
     @Override
     public boolean validarUsuario(UsuarioDTO usuario) {
-        // Simula usuario válido: admin / 1234
+        // Simula usuario válido: carlos / 1234
         return "carlos".equals(usuario.getUsuario()) && "1234".equals(usuario.getContrasena());
     }
 }
