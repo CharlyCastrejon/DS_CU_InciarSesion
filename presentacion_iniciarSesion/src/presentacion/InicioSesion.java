@@ -41,7 +41,7 @@ public class InicioSesion extends JFrame {
     JLabel lblLogo = new JLabel();
     try {
         ImageIcon icon = new ImageIcon(getClass().getResource("/resources/logo.png"));
-        Image img = icon.getImage().getScaledInstance(200, 92, Image.SCALE_SMOOTH);
+        Image img = icon.getImage().getScaledInstance(220, 97, Image.SCALE_SMOOTH);
         lblLogo.setIcon(new ImageIcon(img));
     } catch (Exception e) {
         lblLogo.setText("LOGO");
@@ -114,7 +114,6 @@ public class InicioSesion extends JFrame {
     setDefaultCloseOperation(EXIT_ON_CLOSE);
     setVisible(true);
 }
-
 
     public static void main(String[] args) {
         new InicioSesion();
